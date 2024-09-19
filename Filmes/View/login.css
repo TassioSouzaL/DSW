@@ -1,0 +1,80 @@
+/*Código CSS da página de Login*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-image: url(https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2020/08/legiao_LqVUCN1kT8yX.jpg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+  }
+  
+  form {
+    background-color: rgba(0, 0, 0, 0.623);
+    margin: 30px;
+    border: solid 3px white;
+    border-radius: 14%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 20px;
+  }
+  
+  div#login {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 440px;
+  }
+  
+  .cadastro {
+    position: relative;
+    margin-left: -280px;
+    text-decoration: none;
+    unicode-range: none;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+  }
+  .menu{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 100%;
+    padding-right: 100%;
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+  
+  }
+  .menu-horizontal ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: #a03d04;
+  }
+  
+  .menu-horizontal ul li{
+    display: inline;
+  }
+  
+  .menu-horizontal ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+  }
+  .menu-horizontal ul li a:hover{
+    background-color: #330666;
+  }

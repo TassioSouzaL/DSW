@@ -1,0 +1,67 @@
+body {
+    background-image:  url(DNEMULNE.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(14, 226, 198);
+    box-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+video {
+  box-sizing: content-box;
+  margin: 20%;
+  margin-top: 2%;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: white;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    background-color: white;
+    color: #000000;
+    line-height: 1.5;
+}
+.menu{
+
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+  
+  }
+  .menu-horizontal ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: #a03d04;
+  }
+  
+  .menu-horizontal ul li{
+    display: inline;
+  }
+  
+  .menu-horizontal ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+  }
+  .menu-horizontal ul li a:hover{
+    background-color: #330666;
+  }
+  

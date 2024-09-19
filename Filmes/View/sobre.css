@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+
+}
+div#tabs{
+    box-sizing: content-box     ;
+    margin: 20%;
+    margin-top: 20%;
+}
+.menu{
+
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+  
+  }
+  .menu-horizontal ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: #a03d04;
+  }
+  
+  .menu-horizontal ul li{
+    display: inline;
+  }
+  
+  .menu-horizontal ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+  }
+  .menu-horizontal ul li a:hover{
+    background-color: #330666;
+  }

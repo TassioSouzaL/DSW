@@ -1,0 +1,52 @@
+/*Código CSS da página de Login*/
+        *{
+            margin: 0px;
+            padding: 10px;
+        }
+        body{
+            
+            width: auto;
+            height: 719px;
+            background-image: linear-gradient(45deg,black, red, rgb(255, 0, 242), blue);
+           
+        }
+        form{
+            background-color: rgba(0, 0, 0, 0.484);
+            margin: 30px;
+            border: solid rgb(0, 255, 0) 6px;
+            border-radius: 14%;
+            text-align: center;
+            align-items: center;
+            font-size: 24px;
+            font-style: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(0, 255, 0);
+        }
+        div#login{
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 500px;
+            margin-right: auto;
+            
+        }
+        .cadastro{
+            text-decoration: none, underline; 
+            align-items: center;
+            font-size: 32px;
+            font-style: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(255, 255, 255);
+            
+        }
+        div#linkscad{
+            position: relative;
+            width: 0;
+            min-width: 825px;
+            height:700px;
+            text-align: right;
+            float: right;
+            margin-left:3.7%;
+            margin-right:3.7%;
+            padding-left:0.5%;
+            padding-right:0.5%;
+        }
